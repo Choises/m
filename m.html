@@ -1009,7 +1009,7 @@
     }
 
     function copyRadioLink() {
-      const currentLink = window.location.href;
+      const currentLink ="https://panos316radio.blogspot.com/"
       const btnText = document.getElementById('share-btn-text');
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(currentLink).then(() => { showSuccessMessage(btnText); }).catch(() => { fallbackCopy(currentLink, btnText); });
